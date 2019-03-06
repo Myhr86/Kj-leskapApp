@@ -1,8 +1,3 @@
-var lever = 0;
-var salami = 0;
-var gomme = 0;
-var kremost = 0;
-
 var ul = document.querySelector("ul");
 
 function buttonClick() {
@@ -20,7 +15,6 @@ function buttonClick() {
   document.getElementById('myLI').value = n;
 }
 function buttonClickMinus() {
-  //document.getElementById("myLI").value = --lever;
   var n = localStorage.getItem('leverpostei_counter');
 
   if (n === null) {
@@ -35,7 +29,6 @@ function buttonClickMinus() {
 }
 
 function buttonClick2() {
-  //document.getElementById("myLI2").value = ++salami;
   var a = localStorage.getItem('salami_counter');
 
   if (a === null) {
@@ -49,7 +42,6 @@ function buttonClick2() {
   document.getElementById('myLI2').value = a;
 }
 function buttonClickMinus2() {
-  //document.getElementById("myLI2").value = --salami;
   var a = localStorage.getItem('salami_counter');
 
   if (a === null) {
@@ -64,7 +56,6 @@ function buttonClickMinus2() {
 }
 
 function buttonClick3() {
-  //document.getElementById("myLI3").value = ++gomme;
   var b = localStorage.getItem('gomme_counter');
 
   if (b === null) {
@@ -78,7 +69,6 @@ function buttonClick3() {
   document.getElementById('myLI3').value = b;
 }
 function buttonClickMinus3() {
-  //document.getElementById("myLI3").value = --gomme;
   var b = localStorage.getItem('gomme_counter');
 
   if (b === null) {
@@ -93,7 +83,6 @@ function buttonClickMinus3() {
 }
 
 function buttonClick4() {
-  //document.getElementById("myLI4").value = ++kremost;
   var c = localStorage.getItem('kremost_counter');
 
   if (c === null) {
@@ -107,7 +96,6 @@ function buttonClick4() {
   document.getElementById('myLI4').value = c;
 }
 function buttonClickMinus4() {
-  //document.getElementById("myLI4").value = --kremost;
   var c = localStorage.getItem('kremost_counter');
 
   if (c === null) {

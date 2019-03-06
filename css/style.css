@@ -121,6 +121,11 @@ input {
     margin-top: 2%;
     margin-left: 10%;
   }
+
+  #update {
+    width: 40%;
+    margin-left: 20%;
+  }
   input {
 
   }
